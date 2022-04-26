@@ -19,5 +19,6 @@ declare module "styled-components" {
 
         transition: string;
         borderRadius: string;
+        boxShadow: string;
     }
 }
