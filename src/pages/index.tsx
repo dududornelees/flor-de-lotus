@@ -23,12 +23,11 @@ const Home = () => {
             <section className="home__banner">
                 <Container className="home__banner__container">
                     <h2>
-                        Proporcionando saúde e bem estar
-                        <br />
-                        para quem sempre cuidou de você.
+                        Proporcionando saúde e bem estar para quem sempre cuidou
+                        de você.
                     </h2>
 
-                    <button>Cuidado 24h</button>
+                    <button type="button">Cuidado 24h</button>
                 </Container>
             </section>
 
@@ -67,6 +66,12 @@ const Home = () => {
                             />
                         ))}
                     </div>
+                </Container>
+            </section>
+
+            <section className="home__services">
+                <Container className="home__services__container">
+                    <Divider title="SERVIÇOS" />
                 </Container>
             </section>
         </HomeStyle>

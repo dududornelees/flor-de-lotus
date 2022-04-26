@@ -45,4 +45,11 @@ export const DividerStyle = styled.div`
             height: 8px;
         }
     }
+
+    /* Tablet */
+    ${(props) => props.theme.media.tablet} {
+        .divider__title {
+            font-size: 18px;
+        }
+    }
 `;

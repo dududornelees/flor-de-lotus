@@ -20,5 +20,10 @@ declare module "styled-components" {
         transition: string;
         borderRadius: string;
         boxShadow: string;
+
+        media: {
+            tablet: string;
+            mobile: string;
+        };
     }
 }

@@ -16,5 +16,10 @@ export const DefaultTheme = {
 
     transition: "all .2s",
     borderRadius: "4px",
-    boxShadow: "2px 2px 3px #AAAAAA"
+    boxShadow: "2px 2px 3px #909090",
+
+    media: {
+        tablet: "@media(max-width: 992px)",
+        mobile: "@media(max-width: 768px)"
+    }
 };
