@@ -18,6 +18,7 @@ declare module "styled-components" {
         };
 
         transition: string;
+        border: string;
         borderRadius: string;
         boxShadow: string;
 
@@ -27,3 +28,4 @@ declare module "styled-components" {
         };
     }
 }
+

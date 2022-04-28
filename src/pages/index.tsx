@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Divider from "../components/Divider/Divider";
 import QualityCard from "../components/Cards/QualityCard/QualityCard";
+import ServiceCard from "../components/Cards/ServiceCard/ServiceCard";
 
 // Styles
 import { HomeStyle } from "../styles/Pages/Home/styles";
@@ -72,6 +73,38 @@ const Home = () => {
             <section className="home__services">
                 <Container className="home__services__container">
                     <Divider title="SERVIÇOS" />
+
+                    <div className="home__services__service-cards">
+                        <ServiceCard
+                            title="Serviço número 1"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+
+                        <ServiceCard
+                            title="Serviço número 2"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+
+                        <ServiceCard
+                            title="Serviço número 3"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+
+                        <ServiceCard
+                            title="Serviço número 4"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+
+                        <ServiceCard
+                            title="Serviço número 5"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+
+                        <ServiceCard
+                            title="Serviço número 6"
+                            description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy."
+                        />
+                    </div>
                 </Container>
             </section>
         </HomeStyle>

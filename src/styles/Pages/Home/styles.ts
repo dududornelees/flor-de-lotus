@@ -4,6 +4,7 @@ import { shade } from "polished";
 export const HomeStyle = styled.main`
     padding-top: 60px;
 
+    /* Banner */
     .home__banner {
         background-image: url("/images/main-banner.webp");
         background-position: center;
@@ -46,6 +47,7 @@ export const HomeStyle = styled.main`
         }
     }
 
+    /* Structure */
     .home__structure {
         .home__structure__container {
             .home__structure__quality-cards {
@@ -65,6 +67,17 @@ export const HomeStyle = styled.main`
                     object-fit: cover;
                     cursor: pointer;
                 }
+            }
+        }
+    }
+
+    /* Services */
+    .home__services {
+        .home__services__container {
+            .home__services__service-cards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 20px;
             }
         }
     }
@@ -115,6 +128,16 @@ export const HomeStyle = styled.main`
 
                 .home__structure__images {
                     grid-template-columns: 1fr;
+                }
+            }
+        }
+
+        .home__services {
+            .home__services__container {
+                .home__services__service-cards {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-gap: 20px;
                 }
             }
         }

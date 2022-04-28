@@ -15,6 +15,7 @@ export const DefaultTheme = {
     },
 
     transition: "all .2s",
+    border: "1px solid #aaaaaa",
     borderRadius: "4px",
     boxShadow: "2px 2px 3px #909090",
 

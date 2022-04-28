@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const QualityCardStyle = styled.div`
     border-radius: ${(props) => props.theme.borderRadius};
     box-shadow: ${(props) => props.theme.boxShadow};
+    border: ${(props) => props.theme.border};
     padding: 20px;
     background-color: white;
-    border: 1px solid #aaaaaa;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -40,3 +40,4 @@ export const QualityCardStyle = styled.div`
         }
     }
 `;
+
