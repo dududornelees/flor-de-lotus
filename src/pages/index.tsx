@@ -188,7 +188,7 @@ const Home = () => {
                         </p>
                     </article>
 
-                    <button>Veja mais</button>
+                    <button type="button">Veja mais</button>
                 </div>
 
                 <div className="home__who-we-are__image"></div>

@@ -93,7 +93,7 @@ export const HomeStyle = styled.main`
 
         .home__who-we-are__text {
             background-color: ${(props) => props.theme.colors.primary};
-            padding: 0px 55px 55px 55px;
+            padding: 0px 55px 30px 55px;
             display: flex;
             align-items: center;
             justify-content: center;
