@@ -98,6 +98,7 @@ export const HeaderStyle = styled.header`
                 button {
                     display: flex;
                     background-color: transparent;
+                    border: none;
 
                     svg {
                         color: ${(props) => props.theme.colors.primary};

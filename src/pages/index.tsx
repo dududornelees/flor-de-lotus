@@ -107,6 +107,92 @@ const Home = () => {
                     </div>
                 </Container>
             </section>
+
+            <section className="home__who-we-are">
+                <div className="home__who-we-are__text">
+                    <Divider title="QUEM SOMOS" white />
+
+                    <article>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industrys standard dummy text ever since the 1500s.
+                            is simply dummy text of the printing and typesetting
+                            industry.
+                        </p>
+
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industrys standard dummy text ever since the 1500s.
+                            is simply dummy text of the printing and typesetting
+                            industry.
+                        </p>
+
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industrys standard dummy text ever since the 1500s.
+                            is simply dummy text of the printing and typesetting
+                            industry.
+                        </p>
+
+                        <ul>
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+
+                            <li>
+                                Lorem Ipsum is simply dummy text of the printing
+                                and typesetting industry.
+                            </li>
+                        </ul>
+
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industrys standard dummy text ever since the 1500s.
+                            is simply dummy text of the printing and typesetting
+                            industry.
+                        </p>
+                    </article>
+
+                    <button>Veja mais</button>
+                </div>
+
+                <div className="home__who-we-are__image"></div>
+            </section>
         </HomeStyle>
     );
 };
