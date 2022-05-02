@@ -1,0 +1,16 @@
+{
+    "short_name": "Flor de Lótus",
+    "name": "Geriatria - Flor de Lótus",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#3c89d0",
+    "background_color": "#f4f7fa",
+    "description": "Geriatria - Flor de Lótus",
+    "icons": [
+        {
+            "src": "/static/favicon.ico",
+            "type": "image/icon",
+            "sizes": "256x256"
+        }
+    ]
+}

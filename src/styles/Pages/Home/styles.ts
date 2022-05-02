@@ -67,6 +67,8 @@ export const HomeStyle = styled.main`
                     border-radius: ${(props) => props.theme.borderRadius};
                     object-fit: cover;
                     cursor: pointer;
+                    max-width: 220px;
+                    max-height: 220px;
                 }
             }
         }
