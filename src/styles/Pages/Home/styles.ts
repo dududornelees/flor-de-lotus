@@ -148,6 +148,96 @@ export const HomeStyle = styled.main`
         }
     }
 
+    /* Contact */
+    .home__contact {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 620px;
+
+        .home__contact__text {
+            background-image: url("/images/contact/banner.webp");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 50%;
+
+            .contact__text__location {
+                margin-bottom: 30px;
+
+                p {
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+
+            .contact__text__cellphone {
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+
+        .home__contact__form {
+            background-color: ${(props) => props.theme.colors.primary};
+            width: 50%;
+            padding: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h3 {
+                width: 470px;
+                font-size: 24px;
+                color: white;
+                font-weight: 500;
+                margin-bottom: 30px;
+            }
+
+            form {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 15px;
+                width: 100%;
+
+                input,
+                textarea {
+                    border-radius: ${(props) => props.theme.borderRadius};
+                    border: none;
+                    width: 100%;
+                    padding: 14px;
+                    outline: none;
+                    font-size: 16px;
+                    resize: none;
+                }
+
+                textarea {
+                    height: 175px;
+                }
+
+                button {
+                    border-radius: ${(props) => props.theme.borderRadius};
+                    transition: ${(props) => props.theme.transition};
+                    width: 100%;
+                    padding: 14px;
+                    border: none;
+                    background-color: black;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #151515;
+                    }
+                }
+            }
+        }
+    }
+
     /* Tablet */
     ${(props) => props.theme.media.tablet} {
         /* Banner */
@@ -174,8 +264,46 @@ export const HomeStyle = styled.main`
             grid-template-columns: 1fr;
 
             .home__who-we-are__image {
-                height: 350px;
-                background-position: top;
+                display: none;
+            }
+        }
+
+        /* Contact */
+        .home__contact {
+            flex-direction: column-reverse;
+            height: 980px;
+
+            .home__contact__text {
+                width: 100%;
+                height: 800px;
+
+                .contact__text__cellphone {
+                    font-size: 20px;
+                }
+            }
+
+            .home__contact__form {
+                width: 100%;
+
+                h3 {
+                    width: 100%;
+                    font-size: 18px;
+                }
+
+                form {
+                    width: 100%;
+
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                    }
+
+                    button {
+                        padding: 10px;
+                        width: 100%;
+                    }
+                }
             }
         }
     }
@@ -232,6 +360,20 @@ export const HomeStyle = styled.main`
                 article {
                     ul {
                         margin-left: 18px;
+                    }
+                }
+            }
+        }
+
+        /* Contact */
+        .home__contact {
+            flex-direction: column-reverse;
+            height: 900px;
+
+            .home__contact__text {
+                .contact__text__location {
+                    p {
+                        font-size: 16px;
                     }
                 }
             }

@@ -193,6 +193,39 @@ const Home = () => {
 
                 <div className="home__who-we-are__image"></div>
             </section>
+
+            <section className="home__contact">
+                <div className="home__contact__form">
+                    <h3>
+                        Envie suas dúvidas e solicite maiores informações.
+                        Estamos a sua disposição.
+                    </h3>
+
+                    <form>
+                        <input placeholder="Nome: *" type="text" />
+                        <input placeholder="Telefone: *" type="text" />
+                        <input placeholder="Email:" type="email" />
+                        <textarea placeholder="Mensagem:"></textarea>
+
+                        <button type="button">Enviar</button>
+                    </form>
+                </div>
+
+                <div className="home__contact__text">
+                    <Divider title="CONTATO" />
+
+                    <div className="contact__text__location">
+                        <p>Cuidando em Casa Hotelaria Assistida</p>
+                        <p>Rua Ildefonso Simões Lopes, 50</p>
+                        <p>Bairro Três Figueiras - Porto Alegre/RS</p>
+                        <p>Estacionamento próprio.</p>
+                    </div>
+
+                    <h3 className="contact__text__cellphone">
+                        (51) 99999-9999 & (51) 99999-999
+                    </h3>
+                </div>
+            </section>
         </HomeStyle>
     );
 };
